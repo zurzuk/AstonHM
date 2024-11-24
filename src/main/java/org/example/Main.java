@@ -16,6 +16,10 @@ public class Main {
         printColor();
         System.out.println();
 
+        //Задание4
+        compareNumbers();
+        System.out.println();
+
     }
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -40,5 +44,15 @@ public class Main {
         } else {
             System.out.println("Зеленый");
         }
+    }
+    public static void compareNumbers() {
+        int a = 128;
+        int b = 300;
+        if (a >= b) {
+            System.out.println("a>=b");
+        } else {
+            System.out.println("a<b");
+        }
+        
     }
 }
