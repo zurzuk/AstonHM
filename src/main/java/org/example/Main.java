@@ -6,8 +6,15 @@ public class Main {
     public static void main(String[] args) {
         //Задание1
         printThreeWords();
+        System.out.println();
+
         //Задание2
         checkSumSign();
+        System.out.println();
+
+        //Задание3
+        printColor();
+        System.out.println();
 
     }
     public static void printThreeWords() {
@@ -22,6 +29,16 @@ public class Main {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
+        }
+    }
+    public static void printColor() {
+        int value = 101;
+        if (value <= 0) {
+            System.out.println("Красный");
+        } else if (value <= 100) {
+            System.out.println("Желтый");
+        } else {
+            System.out.println("Зеленый");
         }
     }
 }
